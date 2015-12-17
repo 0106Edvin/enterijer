@@ -1,0 +1,70 @@
+@main("Studio Enterijer"){
+
+  <section id="recent-works">
+    <div class="container">
+      <div>
+      <div style="text-align: center">
+        <h1>CONTACT </h1>
+      </div>
+      <div class="row margin-bottom">
+        <div class="col-md-4 col-md-offset-4">
+          <div style="text-align: center" >
+            <p>Please contact us, we would like to help you</p>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="portfolio-item-contact">
+              <div class="margin-top">
+                <h5 class="icon-map-marker"> Address </h5>
+                <h6>Hamdije Cemerlica, 7 <br>
+                  Sarajevo, Bosnia and Herzegovina
+                </h6>
+              </div>
+
+              <div class="margin-top">
+                <h5 class="icon-phone"> Phone</h5>
+                <h6>+387 (61) 957 000 </h6>
+              </div>
+
+              <div class="margin-top">
+                <h5 class="icon-envelope"> Mail</h5>
+                <h6>mirza.granulo&#64gmail.com</h6>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-8">
+            <div id="map"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+     function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(43.850572, 18.393421),
+          zoom:16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var marker = new google.maps.Marker({
+            position:{lat: 43.850572, lng: 18.393421} ,
+            map: map,
+            title: 'Studio Enterijer'
+         });
+     }
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+
+}
