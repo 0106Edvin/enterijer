@@ -2,10 +2,14 @@
 @(title: String)(content: Html)
 <!DOCTYPE html>
 
-<html lang="en-BA">
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
         <title>@title</title>
-        <link rel="stylesheet" media="screen" href='@routes.Assets.versioned("stylesheets/main.css")'>
 
         <!-- Bootstrap -->
         <link rel="stylesheet" media="screen" href='@routes.Assets.versioned("stylesheets/bootstrap.min.css")'>
@@ -31,13 +35,10 @@
 
         <script src='@routes.Assets.versioned("javascripts/jQuerry.easyPaginate.js")'></script>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
 
             <!--[if lt IE 9]>
             <![endif]-->
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
+        <link rel="shortcut icon" href="images/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -54,15 +55,39 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="@routes.Application.index()"><img src='' alt="logo"></a>
+                <a class="navbar-brand" href="@routes.Application.index()"><img src='@routes.Assets.versioned("images/logo.png")' alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="@routes.Application.index()">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
                     <li><a href="@routes.Application.gallery()">Gallery</a></li>
                     <li><a href="@routes.Application.contact()">Contact</a></li>
+                    <li><a href="services.html">Okov</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plocasti materijali <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@routes.Application.univer()">Univer</a></li>
+                            <li><a href="@routes.Application.radneploce()">Radne ploce</a></li>
+                            <li><a href="@routes.Application.mdffarbani()">MDF Farbani</a></li>
+                            <li><a href="@routes.Application.mdf()">MDF</a></li>
+                            <li><a href="@routes.Application.hdflesonit()">HDF Lesonit</a></li>
+                            <li><a href="@routes.Application.furniraneploce()">Furnirane ploce</a></li>
+                            <li><a href="@routes.Application.ivericasirova()">Iverica sirova</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Namjestaj po mjeri <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@routes.Application.kuhinje()">Kuhinje</a></li>
+                            <li><a href="@routes.Application.plakari()">Plakari</a></li>
+                            <li><a href="@routes.Application.kannamjestaj()">Kancelarijski namjestaj</a></li>
+                            <li><a href="@routes.Application.dnevnesobe()">Dnevne sobe</a></li>
+                            <li><a href="@routes.Application.djecijesobe()">Djecije sobe</a></li>
+                            <li><a href="@routes.Application.spavacesobe()">Spavace sobe</a></li>
+                            <li><a href="@routes.Application.predsoblja()">Predsoblja</a></li>
+                            <li><a href="@routes.Application.kupatila()">Kupatila</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>

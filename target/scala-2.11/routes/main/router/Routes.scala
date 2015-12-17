@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:E:/New Project/blankProject/conf/routes
-// @DATE:Wed Dec 16 13:03:13 CET 2015
+// @DATE:Thu Dec 17 22:24:24 CET 2015
 
 package router
 
@@ -18,7 +18,7 @@ class Routes(
   override val errorHandler: play.api.http.HttpErrorHandler, 
   // @LINE:6
   Application_1: javax.inject.Provider[controllers.Application],
-  // @LINE:13
+  // @LINE:38
   Assets_0: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -27,7 +27,7 @@ class Routes(
    def this(errorHandler: play.api.http.HttpErrorHandler,
     // @LINE:6
     Application_1: javax.inject.Provider[controllers.Application],
-    // @LINE:13
+    // @LINE:38
     Assets_0: controllers.Assets
   ) = this(errorHandler, Application_1, Assets_0, "/")
 
@@ -46,7 +46,21 @@ class Routes(
     ("""GET""", this.prefix, """@controllers.Application@.index()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """gallery""", """@controllers.Application@.gallery()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """contact""", """@controllers.Application@.contact()"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """proba""", """@controllers.Application@.proba()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """univer""", """@controllers.Application@.univer()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """radneploce""", """@controllers.Application@.radneploce()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """MDFfarbani""", """@controllers.Application@.mdffarbani()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """MDF""", """@controllers.Application@.mdf()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """HDFlesonit""", """@controllers.Application@.hdflesonit()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """furniraneploce""", """@controllers.Application@.furniraneploce()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """ivericasirova""", """@controllers.Application@.ivericasirova()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """kuhinje""", """@controllers.Application@.kuhinje()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """plakari""", """@controllers.Application@.plakari()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """kancelarijskinamjestaj""", """@controllers.Application@.kannamjestaj()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """dnevnesobe""", """@controllers.Application@.dnevnesobe()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """djecijesobe""", """@controllers.Application@.djecijesobe()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """spavacesobe""", """@controllers.Application@.spavacesobe()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """predsoblja""", """@controllers.Application@.predsoblja()"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """kupatila""", """@controllers.Application@.kupatila()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
@@ -106,28 +120,266 @@ class Routes(
     )
   )
 
-  // @LINE:9
-  private[this] lazy val controllers_Application_proba3_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("proba")))
+  // @LINE:12
+  private[this] lazy val controllers_Application_univer3_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("univer")))
   )
-  private[this] lazy val controllers_Application_proba3_invoker = createInvoker(
-    Application_1.get.proba(),
+  private[this] lazy val controllers_Application_univer3_invoker = createInvoker(
+    Application_1.get.univer(),
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.Application",
-      "proba",
+      "univer",
       Nil,
       "GET",
       """""",
-      this.prefix + """proba"""
+      this.prefix + """univer"""
     )
   )
 
   // @LINE:13
-  private[this] lazy val controllers_Assets_versioned4_route = Route("GET",
+  private[this] lazy val controllers_Application_radneploce4_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("radneploce")))
+  )
+  private[this] lazy val controllers_Application_radneploce4_invoker = createInvoker(
+    Application_1.get.radneploce(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "radneploce",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """radneploce"""
+    )
+  )
+
+  // @LINE:14
+  private[this] lazy val controllers_Application_mdffarbani5_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("MDFfarbani")))
+  )
+  private[this] lazy val controllers_Application_mdffarbani5_invoker = createInvoker(
+    Application_1.get.mdffarbani(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "mdffarbani",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """MDFfarbani"""
+    )
+  )
+
+  // @LINE:15
+  private[this] lazy val controllers_Application_mdf6_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("MDF")))
+  )
+  private[this] lazy val controllers_Application_mdf6_invoker = createInvoker(
+    Application_1.get.mdf(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "mdf",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """MDF"""
+    )
+  )
+
+  // @LINE:16
+  private[this] lazy val controllers_Application_hdflesonit7_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("HDFlesonit")))
+  )
+  private[this] lazy val controllers_Application_hdflesonit7_invoker = createInvoker(
+    Application_1.get.hdflesonit(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "hdflesonit",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """HDFlesonit"""
+    )
+  )
+
+  // @LINE:17
+  private[this] lazy val controllers_Application_furniraneploce8_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("furniraneploce")))
+  )
+  private[this] lazy val controllers_Application_furniraneploce8_invoker = createInvoker(
+    Application_1.get.furniraneploce(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "furniraneploce",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """furniraneploce"""
+    )
+  )
+
+  // @LINE:18
+  private[this] lazy val controllers_Application_ivericasirova9_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ivericasirova")))
+  )
+  private[this] lazy val controllers_Application_ivericasirova9_invoker = createInvoker(
+    Application_1.get.ivericasirova(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "ivericasirova",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """ivericasirova"""
+    )
+  )
+
+  // @LINE:22
+  private[this] lazy val controllers_Application_kuhinje10_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("kuhinje")))
+  )
+  private[this] lazy val controllers_Application_kuhinje10_invoker = createInvoker(
+    Application_1.get.kuhinje(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "kuhinje",
+      Nil,
+      "GET",
+      """Namjestaj po mjeri""",
+      this.prefix + """kuhinje"""
+    )
+  )
+
+  // @LINE:23
+  private[this] lazy val controllers_Application_plakari11_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("plakari")))
+  )
+  private[this] lazy val controllers_Application_plakari11_invoker = createInvoker(
+    Application_1.get.plakari(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "plakari",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """plakari"""
+    )
+  )
+
+  // @LINE:24
+  private[this] lazy val controllers_Application_kannamjestaj12_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("kancelarijskinamjestaj")))
+  )
+  private[this] lazy val controllers_Application_kannamjestaj12_invoker = createInvoker(
+    Application_1.get.kannamjestaj(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "kannamjestaj",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """kancelarijskinamjestaj"""
+    )
+  )
+
+  // @LINE:25
+  private[this] lazy val controllers_Application_dnevnesobe13_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("dnevnesobe")))
+  )
+  private[this] lazy val controllers_Application_dnevnesobe13_invoker = createInvoker(
+    Application_1.get.dnevnesobe(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "dnevnesobe",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """dnevnesobe"""
+    )
+  )
+
+  // @LINE:26
+  private[this] lazy val controllers_Application_djecijesobe14_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("djecijesobe")))
+  )
+  private[this] lazy val controllers_Application_djecijesobe14_invoker = createInvoker(
+    Application_1.get.djecijesobe(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "djecijesobe",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """djecijesobe"""
+    )
+  )
+
+  // @LINE:27
+  private[this] lazy val controllers_Application_spavacesobe15_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("spavacesobe")))
+  )
+  private[this] lazy val controllers_Application_spavacesobe15_invoker = createInvoker(
+    Application_1.get.spavacesobe(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "spavacesobe",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """spavacesobe"""
+    )
+  )
+
+  // @LINE:28
+  private[this] lazy val controllers_Application_predsoblja16_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("predsoblja")))
+  )
+  private[this] lazy val controllers_Application_predsoblja16_invoker = createInvoker(
+    Application_1.get.predsoblja(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "predsoblja",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """predsoblja"""
+    )
+  )
+
+  // @LINE:29
+  private[this] lazy val controllers_Application_kupatila17_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("kupatila")))
+  )
+  private[this] lazy val controllers_Application_kupatila17_invoker = createInvoker(
+    Application_1.get.kupatila(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "kupatila",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """kupatila"""
+    )
+  )
+
+  // @LINE:38
+  private[this] lazy val controllers_Assets_versioned18_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
-  private[this] lazy val controllers_Assets_versioned4_invoker = createInvoker(
+  private[this] lazy val controllers_Assets_versioned18_invoker = createInvoker(
     Assets_0.versioned(fakeValue[String], fakeValue[Asset]),
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -161,16 +413,100 @@ class Routes(
         controllers_Application_contact2_invoker.call(Application_1.get.contact())
       }
   
-    // @LINE:9
-    case controllers_Application_proba3_route(params) =>
+    // @LINE:12
+    case controllers_Application_univer3_route(params) =>
       call { 
-        controllers_Application_proba3_invoker.call(Application_1.get.proba())
+        controllers_Application_univer3_invoker.call(Application_1.get.univer())
       }
   
     // @LINE:13
-    case controllers_Assets_versioned4_route(params) =>
+    case controllers_Application_radneploce4_route(params) =>
+      call { 
+        controllers_Application_radneploce4_invoker.call(Application_1.get.radneploce())
+      }
+  
+    // @LINE:14
+    case controllers_Application_mdffarbani5_route(params) =>
+      call { 
+        controllers_Application_mdffarbani5_invoker.call(Application_1.get.mdffarbani())
+      }
+  
+    // @LINE:15
+    case controllers_Application_mdf6_route(params) =>
+      call { 
+        controllers_Application_mdf6_invoker.call(Application_1.get.mdf())
+      }
+  
+    // @LINE:16
+    case controllers_Application_hdflesonit7_route(params) =>
+      call { 
+        controllers_Application_hdflesonit7_invoker.call(Application_1.get.hdflesonit())
+      }
+  
+    // @LINE:17
+    case controllers_Application_furniraneploce8_route(params) =>
+      call { 
+        controllers_Application_furniraneploce8_invoker.call(Application_1.get.furniraneploce())
+      }
+  
+    // @LINE:18
+    case controllers_Application_ivericasirova9_route(params) =>
+      call { 
+        controllers_Application_ivericasirova9_invoker.call(Application_1.get.ivericasirova())
+      }
+  
+    // @LINE:22
+    case controllers_Application_kuhinje10_route(params) =>
+      call { 
+        controllers_Application_kuhinje10_invoker.call(Application_1.get.kuhinje())
+      }
+  
+    // @LINE:23
+    case controllers_Application_plakari11_route(params) =>
+      call { 
+        controllers_Application_plakari11_invoker.call(Application_1.get.plakari())
+      }
+  
+    // @LINE:24
+    case controllers_Application_kannamjestaj12_route(params) =>
+      call { 
+        controllers_Application_kannamjestaj12_invoker.call(Application_1.get.kannamjestaj())
+      }
+  
+    // @LINE:25
+    case controllers_Application_dnevnesobe13_route(params) =>
+      call { 
+        controllers_Application_dnevnesobe13_invoker.call(Application_1.get.dnevnesobe())
+      }
+  
+    // @LINE:26
+    case controllers_Application_djecijesobe14_route(params) =>
+      call { 
+        controllers_Application_djecijesobe14_invoker.call(Application_1.get.djecijesobe())
+      }
+  
+    // @LINE:27
+    case controllers_Application_spavacesobe15_route(params) =>
+      call { 
+        controllers_Application_spavacesobe15_invoker.call(Application_1.get.spavacesobe())
+      }
+  
+    // @LINE:28
+    case controllers_Application_predsoblja16_route(params) =>
+      call { 
+        controllers_Application_predsoblja16_invoker.call(Application_1.get.predsoblja())
+      }
+  
+    // @LINE:29
+    case controllers_Application_kupatila17_route(params) =>
+      call { 
+        controllers_Application_kupatila17_invoker.call(Application_1.get.kupatila())
+      }
+  
+    // @LINE:38
+    case controllers_Assets_versioned18_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
-        controllers_Assets_versioned4_invoker.call(Assets_0.versioned(path, file))
+        controllers_Assets_versioned18_invoker.call(Assets_0.versioned(path, file))
       }
   }
 }
