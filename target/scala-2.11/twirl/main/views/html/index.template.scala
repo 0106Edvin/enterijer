@@ -30,11 +30,8 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 
 
 Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](format.raw/*1.27*/("""
-"""),format.raw/*2.1*/("""<!DOCTYPE html>
-<html lang="en">
 
-
-        <section id="main-slider" class="no-margin">
+        """),format.raw/*3.9*/("""<section id="main-slider" class="no-margin">
             <div class="carousel slide wet-asphalt">
                 <ol class="carousel-indicators">
                     <li data-target="#main-slider" data-slide-to="0" class="active"></li>
@@ -44,14 +41,14 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src=""""),_display_(/*16.36*/routes/*16.42*/.Assets.versioned("images/slider/bg1.jpg")),format.raw/*16.84*/("""" alt="" style="flex-shrink: inherit">
+                        <img src=""""),_display_(/*13.36*/routes/*13.42*/.Assets.versioned("images/slider/bg1.jpg")),format.raw/*13.84*/("""" alt="" >
 
                     </div><!--/.item-->
                     <div class="item">
-                        <img src=""""),_display_(/*20.36*/routes/*20.42*/.Assets.versioned("images/slider/bg2.jpg")),format.raw/*20.84*/("""" alt="">
+                        <img src=""""),_display_(/*17.36*/routes/*17.42*/.Assets.versioned("images/slider/bg2.jpg")),format.raw/*17.84*/("""" alt="">
                     </div><!--/.item-->
                     <div class="item ">
-                        <img src=""""),_display_(/*23.36*/routes/*23.42*/.Assets.versioned("images/slider/bg3.jpg")),format.raw/*23.84*/("""" alt="">
+                        <img src=""""),_display_(/*20.36*/routes/*20.42*/.Assets.versioned("images/slider/bg3.jpg")),format.raw/*20.84*/("""" alt="">
                     </div><!--/.item-->
                 </div><!--/.carousel-inner-->
             </div><!--/.carousel-->
@@ -85,12 +82,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*57.99*/routes/*57.105*/.Assets.versioned("images/index/kuhinja.jpg")),format.raw/*57.150*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*54.88*/routes/*54.94*/.Assets.versioned("images/portfolio/recent/kuhinja.jpg")),format.raw/*54.150*/("""" alt="">
                                                     <h5>
                                                     Kuhinje
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*62.140*/routes/*62.146*/.Assets.versioned("images/index/kuhinja.jpg")),format.raw/*62.191*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*59.140*/routes/*59.146*/.Assets.versioned("images/portfolio/recent/kuhinja.jpg")),format.raw/*59.202*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -98,12 +95,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*70.99*/routes/*70.105*/.Assets.versioned("images/index/amplakar.jpg")),format.raw/*70.151*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*67.88*/routes/*67.94*/.Assets.versioned("images/portfolio/recent/amplakar.jpg")),format.raw/*67.151*/("""" alt="">
                                                     <h5>
                                                     Americki plakari
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*75.140*/routes/*75.146*/.Assets.versioned("images/index/amplakar.jpg")),format.raw/*75.192*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*72.140*/routes/*72.146*/.Assets.versioned("images/portfolio/recent/amplakar.jpg")),format.raw/*72.203*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,12 +108,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*83.99*/routes/*83.105*/.Assets.versioned("images/index/komoda.jpg")),format.raw/*83.149*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*80.88*/routes/*80.94*/.Assets.versioned("images/portfolio/recent/komoda.jpg")),format.raw/*80.149*/("""" alt="">
                                                     <h5>
                                                     Komode
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*88.140*/routes/*88.146*/.Assets.versioned("images/index/komoda.jpg")),format.raw/*88.190*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*85.140*/routes/*85.146*/.Assets.versioned("images/portfolio/recent/komoda.jpg")),format.raw/*85.201*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -128,12 +125,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*100.99*/routes/*100.105*/.Assets.versioned("images/index/djsoba.jpg")),format.raw/*100.149*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*97.88*/routes/*97.94*/.Assets.versioned("images/portfolio/recent/djsoba.jpg")),format.raw/*97.149*/("""" alt="">
                                                     <h5>
                                                     Djecije sobe
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*105.140*/routes/*105.146*/.Assets.versioned("images/index/djsoba.jpg")),format.raw/*105.190*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*102.140*/routes/*102.146*/.Assets.versioned("images/portfolio/recent/djsoba.jpg")),format.raw/*102.201*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -141,12 +138,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*113.99*/routes/*113.105*/.Assets.versioned("images/index/ormar.jpg")),format.raw/*113.148*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*110.88*/routes/*110.94*/.Assets.versioned("images/portfolio/recent/ormar.jpg")),format.raw/*110.148*/("""" alt="">
                                                     <h5>
                                                     Ormari
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*118.140*/routes/*118.146*/.Assets.versioned("images/index/ormar.jpg")),format.raw/*118.189*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*115.140*/routes/*115.146*/.Assets.versioned("images/portfolio/recent/ormar.jpg")),format.raw/*115.200*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -154,12 +151,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*126.99*/routes/*126.105*/.Assets.versioned("images/index/ukzid.jpg")),format.raw/*126.148*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*123.88*/routes/*123.94*/.Assets.versioned("images/portfolio/recent/ukzid.jpg")),format.raw/*123.148*/("""" alt="">
                                                     <h5>
                                                     Ukrasni zid
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*131.140*/routes/*131.146*/.Assets.versioned("images/index/ukzid.jpg")),format.raw/*131.189*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*128.140*/routes/*128.146*/.Assets.versioned("images/portfolio/recent/ukzid.jpg")),format.raw/*128.200*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -171,12 +168,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*143.99*/routes/*143.105*/.Assets.versioned("images/index/tapeta.jpg")),format.raw/*143.149*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*140.88*/routes/*140.94*/.Assets.versioned("images/portfolio/recent/tapeta.jpg")),format.raw/*140.149*/("""" alt="">
                                                     <h5>
                                                         Tapete
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*148.140*/routes/*148.146*/.Assets.versioned("images/index/tapeta.jpg")),format.raw/*148.190*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*145.140*/routes/*145.146*/.Assets.versioned("images/portfolio/recent/tapeta.jpg")),format.raw/*145.201*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -184,12 +181,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                         <div class="col-xs-4">
                                             <div class="portfolio-item">
                                                 <div class="item-inner">
-                                                    <img class="img-responsive picturesize" src=""""),_display_(/*156.99*/routes/*156.105*/.Assets.versioned("images/index/polzavino.jpg")),format.raw/*156.152*/("""" alt="">
+                                                    <img class="img-responsive " src=""""),_display_(/*153.88*/routes/*153.94*/.Assets.versioned("images/portfolio/recent/polzavino.jpg")),format.raw/*153.152*/("""" alt="">
                                                     <h5>
                                                         Police za vino
                                                     </h5>
                                                     <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*161.140*/routes/*161.146*/.Assets.versioned("images/index/polzavino.jpg")),format.raw/*161.193*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*158.140*/routes/*158.146*/.Assets.versioned("images/portfolio/recent/polzavino.jpg")),format.raw/*158.204*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -197,12 +194,12 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                                                 <div class="col-xs-4">
                                                     <div class="portfolio-item">
                                                         <div class="item-inner">
-                                                            <img class="img-responsive picturesize" src=""""),_display_(/*169.107*/routes/*169.113*/.Assets.versioned("images/index/poslprostor.jpg")),format.raw/*169.162*/("""" alt="">
+                                                            <img class="img-responsive " src=""""),_display_(/*166.96*/routes/*166.102*/.Assets.versioned("images/portfolio/recent/poslprostor.jpg")),format.raw/*166.162*/("""" alt="">
                                                             <h5>
                                                                Poslovni prostori
                                                             </h5>
                                                             <div class="overlay">
-                                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*174.148*/routes/*174.154*/.Assets.versioned("images/index/poslprostor.jpg")),format.raw/*174.203*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href=""""),_display_(/*171.148*/routes/*171.154*/.Assets.versioned("images/portfolio/recent/poslprostor.jpg")),format.raw/*171.214*/("""" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -215,10 +212,9 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
                 </div><!--/.row-->
             </div>
         </section><!--/#recent-works-->
-</html>
 
 
-""")))}),format.raw/*190.2*/("""
+""")))}),format.raw/*186.2*/("""
 """))
       }
     }
@@ -239,11 +235,11 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 17 23:52:07 CET 2015
+                  DATE: Fri Dec 18 17:28:42 CET 2015
                   SOURCE: E:/New Project/blankProject/app/views/index.scala.html
-                  HASH: 4c08c0124c162740bfc95521ec7c5549833a8730
-                  MATRIX: 827->1|859->25|897->26|924->27|1531->607|1546->613|1609->655|1790->809|1805->815|1868->857|2020->982|2035->988|2098->1030|3939->2844|3955->2850|4022->2895|4448->3293|4464->3299|4531->3344|5131->3917|5147->3923|5215->3969|5650->4376|5666->4382|5734->4428|6334->5001|6350->5007|6416->5051|6841->5448|6857->5454|6923->5498|7736->6283|7753->6289|7820->6333|8252->6736|8269->6742|8336->6786|8937->7359|8954->7365|9020->7408|9446->7805|9463->7811|9529->7854|10130->8427|10147->8433|10213->8476|10644->8878|10661->8884|10727->8927|11523->9695|11540->9701|11607->9745|12037->10146|12054->10152|12121->10196|12722->10769|12739->10775|12809->10822|13247->11231|13264->11237|13334->11284|13968->11889|13985->11895|14057->11944|14537->12395|14554->12401|14626->12450|15248->13041
-                  LINES: 32->1|32->1|32->1|33->2|47->16|47->16|47->16|51->20|51->20|51->20|54->23|54->23|54->23|88->57|88->57|88->57|93->62|93->62|93->62|101->70|101->70|101->70|106->75|106->75|106->75|114->83|114->83|114->83|119->88|119->88|119->88|131->100|131->100|131->100|136->105|136->105|136->105|144->113|144->113|144->113|149->118|149->118|149->118|157->126|157->126|157->126|162->131|162->131|162->131|174->143|174->143|174->143|179->148|179->148|179->148|187->156|187->156|187->156|192->161|192->161|192->161|200->169|200->169|200->169|205->174|205->174|205->174|221->190
+                  HASH: 3b60e0613039bf1d18cb41858afd02a35292ea24
+                  MATRIX: 827->1|859->25|897->26|933->36|1497->573|1512->579|1575->621|1728->747|1743->753|1806->795|1958->920|1973->926|2036->968|3866->2771|3881->2777|3959->2833|4385->3231|4401->3237|4479->3293|5068->3855|5083->3861|5162->3918|5597->4325|5613->4331|5692->4388|6281->4950|6296->4956|6373->5011|6798->5408|6814->5414|6891->5469|7692->6243|7707->6249|7784->6304|8216->6707|8233->6713|8311->6768|8901->7330|8917->7336|8994->7390|9420->7787|9437->7793|9514->7847|10104->8409|10120->8415|10197->8469|10628->8871|10645->8877|10722->8931|11507->9688|11523->9694|11601->9749|12031->10150|12048->10156|12126->10211|12716->10773|12732->10779|12813->10837|13251->11246|13268->11252|13349->11310|13971->11904|13988->11910|14071->11970|14551->12421|14568->12427|14651->12487|15265->13070
+                  LINES: 32->1|32->1|32->1|34->3|44->13|44->13|44->13|48->17|48->17|48->17|51->20|51->20|51->20|85->54|85->54|85->54|90->59|90->59|90->59|98->67|98->67|98->67|103->72|103->72|103->72|111->80|111->80|111->80|116->85|116->85|116->85|128->97|128->97|128->97|133->102|133->102|133->102|141->110|141->110|141->110|146->115|146->115|146->115|154->123|154->123|154->123|159->128|159->128|159->128|171->140|171->140|171->140|176->145|176->145|176->145|184->153|184->153|184->153|189->158|189->158|189->158|197->166|197->166|197->166|202->171|202->171|202->171|217->186
                   -- GENERATED --
               */
           

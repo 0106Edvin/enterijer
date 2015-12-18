@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60a8f8c7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1861fec5[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -549,7 +549,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (508ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (269ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#extensions-parent;4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0[0m
@@ -1852,6 +1852,37 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.cloudinary#cloudinary;1.0.14->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.cloudinary#cloudinary;1.0.14->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-email;1.3.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-email;1.3.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-email;1.3.3[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-email;1.3.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving javax.mail#mail;1.4.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.mail#mail;1.4.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.mail#mail;1.4.5[0m
+[0m[[0mdebug[0m] [0m	found javax.mail#mail;1.4.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving javax.activation#activation;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.activation#activation;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.activation#activation;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found javax.activation#activation;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [compile][0m
@@ -2752,6 +2783,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [runtime][0m
@@ -3653,6 +3703,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.4 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.11;2.4.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.11;2.4.4 {test=[default(compile)]}[0m
@@ -5449,6 +5518,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -6352,6 +6440,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [test-internal][0m
@@ -7255,6 +7362,25 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.cloudinary#cloudinary;1.0.14 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.mail#mail;1.4.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies javax.mail#mail;1.4.5->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.commons#commons-email;1.3.3->javax.activation#activation;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.apache.commons#commons-email;1.3.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.4 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.4 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.4 [test->compile][0m
@@ -8608,6 +8734,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.4!play-java-ws_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.36!mysql-connector-java.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.cloudinary#cloudinary;1.0.14!cloudinary.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-email;1.3.3!commons-email.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0!play-jdbc-evolutions_2.11.jar[0m
@@ -8686,6 +8813,8 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.mail#mail;1.4.5!mail.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.activation#activation;1.1.1!activation.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.11;2.4.4!play-test_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.12!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar[0m
@@ -8738,7 +8867,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9543ms :: artifacts dl 137ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6157ms :: artifacts dl 105ms[0m
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT compile produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT runtime produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT test produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-test.xml[0m
@@ -8752,5 +8881,5 @@
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT docs produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT pom produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT scala-tool produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (9543ms resolve - 137ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (6157ms resolve - 105ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

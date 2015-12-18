@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:E:/New Project/blankProject/conf/routes
-// @DATE:Thu Dec 17 22:24:24 CET 2015
+// @DATE:Fri Dec 18 16:30:33 CET 2015
 
 
 package router {

@@ -17,49 +17,49 @@ public class Application extends Controller {
         return ok(contact.render());
     }
     public Result univer(){
-        return ok(univer.render());
+        return ok(views.html.plmaterijali.univer.render());
     }
     public Result radneploce(){
-        return ok(radneploce.render());
+        return ok(views.html.plmaterijali.radneploce.render());
     }
     public Result mdffarbani(){
-        return ok(mdffarbani.render());
+        return ok(views.html.plmaterijali.mdffarbani.render());
     }
     public Result mdf(){
-        return ok(mdf.render());
+        return ok(views.html.plmaterijali.mdf.render());
     }
     public Result hdflesonit(){
-        return ok(hdflesonit.render());
+        return ok(views.html.plmaterijali.hdflesonit.render());
     }
     public Result furniraneploce(){
-        return ok(furniraneploce.render());
+        return ok(views.html.plmaterijali.furniraneploce.render());
     }
     public Result ivericasirova(){
-        return ok(ivericasirova.render());
+        return ok(views.html.plmaterijali.ivericasirova.render());
     }
     public Result kuhinje(){
-        return ok(kuhinje.render());
+        return ok(views.html.nampomjeri.kuhinje.render());
     }
     public Result plakari(){
-        return ok(plakari.render());
+        return ok(views.html.nampomjeri.plakari.render());
     }
     public Result kannamjestaj(){
-        return ok(kannamjestaj.render());
+        return ok(views.html.nampomjeri.kannamjestaj.render());
     }
     public Result dnevnesobe(){
-        return ok(dnevnesobe.render());
+        return ok(views.html.nampomjeri.dnevnesobe.render());
     }
     public Result djecijesobe(){
-        return ok(djecijesobe.render());
+        return ok(views.html.nampomjeri.djecijesobe.render());
     }
     public Result spavacesobe(){
-        return ok(spavacesobe.render());
+        return ok(views.html.nampomjeri.spavacesobe.render());
     }
     public Result predsoblja(){
-        return ok(predsoblja.render());
+        return ok(views.html.nampomjeri.predsoblja.render());
     }
     public Result kupatila(){
-        return ok(kupatila.render());
+        return ok(views.html.nampomjeri.kupatila.render());
     }
 
 }

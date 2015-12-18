@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:E:/New Project/blankProject/conf/routes
-// @DATE:Thu Dec 17 22:24:24 CET 2015
+// @DATE:Fri Dec 18 16:30:33 CET 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -15,7 +15,27 @@ import _root_.play.libs.F
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:38
+  // @LINE:33
+  class ReverseEmails(_prefix: => String) {
+
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:33
+    def sendMail: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Emails.sendMail",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "email"})
+        }
+      """
+    )
+  
+  }
+
+  // @LINE:41
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +43,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:38
+    // @LINE:41
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """

@@ -28,6 +28,9 @@ GET        /spavacesobe                   @controllers.Application.spavacesobe()
 GET        /predsoblja                    @controllers.Application.predsoblja()
 GET        /kupatila                      @controllers.Application.kupatila()
 
+#Email
+
+POST       /email                           @controllers.Emails.sendMail()
 
 
 

@@ -4,7 +4,7 @@
 		module="blankproject_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151214100916"
+		publication="20151218163314"
 	>
 		<description>
 		blankProject
@@ -47,5 +47,6 @@
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.4.4" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.36" conf="compile->default(compile)"/>
 		<dependency org="com.cloudinary" name="cloudinary" rev="1.0.14" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-email" rev="1.3.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -2,12 +2,17 @@
 .clearfix {
   *zoom: 1;
 }
+html{
+    min-width: 600px;
+}
 #image{
   /*background-image: url('/public/images/slider/bg1.jpg');*/
 }
 #map {
-  width: 700px;
   height: 400px;
+}
+#margin50top{
+  margin-top: 50px;
 }
 .picturesize{
   width: 250px;
@@ -548,11 +553,15 @@ body > section {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.margin-top{
-  margin-top: 30px;
+#mail{
+  font-size: 18px;
+  color: #189800;
 }
-.margin-bottom{
-  margin-bottom: 100px;
+.margin-bottom30{
+  margin-bottom: 30px;
+}
+.margin-bottom50{
+  margin-bottom: 50px;
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
