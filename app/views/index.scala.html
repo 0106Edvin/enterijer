@@ -1,186 +1,180 @@
-@main("Studio Enterijer"){
+@main("Studio | Enterijer"){
 
-        <section id="main-slider" class="no-margin">
-            <div class="carousel slide wet-asphalt">
-                <ol class="carousel-indicators">
-                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                    <li data-target="#main-slider" data-slide-to="1"></li>
-                    <li data-target="#main-slider" data-slide-to="2" ></li>
-                </ol>
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide wet-asphalt">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2" ></li>
+            </ol>
 
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="@routes.Assets.versioned("images/slider/bg1.jpg")" alt="" >
+            <div class="carousel-inner">
+                <div class="item active" id="image1">
 
-                    </div><!--/.item-->
-                    <div class="item">
-                        <img src="@routes.Assets.versioned("images/slider/bg2.jpg")" alt="">
-                    </div><!--/.item-->
-                    <div class="item ">
-                        <img src="@routes.Assets.versioned("images/slider/bg3.jpg")" alt="">
-                    </div><!--/.item-->
-                </div><!--/.carousel-inner-->
-            </div><!--/.carousel-->
-            <a class="prev hidden-xs" href="#main-slider"  data-slide="prev">
-                <i class="icon-angle-left"></i>
-            </a>
-            <a class="next hidden-xs" href="#main-slider" data-slide="next">
-                <i class="icon-angle-right"></i>
-            </a>
-        </section><!--/#main-slider-->
+                </div><!--/.item-->
+                <div class="item" id="image2">
+                </div><!--/.item-->
+                <div class="item" id="image3">
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider"  data-slide="prev">
+            <i class="icon-angle-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="icon-angle-right"></i>
+        </a>
+    </section><!--/#main-slider-->
 
 
-
-        <section id="recent-works">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h3>Nasa ponuda</h3>
-                        <p>Nudimo izradu visoko kvalitetnih kuhinja, americkih plakara, komoda, radnih i djecijih soba ... Vise slika mozete pogledati u nasoj galeriji </p>
-                        <div class="btn-group">
-                            <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
-                            <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                        </div>
-                        <p class="gap"></p>
+    <section id="recent-works">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Nasa ponuda</h3>
+                    <p>Nudimo izradu visoko kvalitetnih kuhinja, americkih plakara, komoda, radnih i djecijih soba ... Vise slika mozete pogledati u nasoj galeriji </p>
+                    <div class="btn-group">
+                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
                     </div>
-                    <div class="col-md-9">
-                        <div id="scroller" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/kuhinja.jpg")" alt="">
-                                                    <h5>
+                    <p class="gap"></p>
+                </div>
+                <div class="col-md-9">
+                    <div id="scroller" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/kuhinja.jpg")" alt="">
+                                                <h5>
                                                     Kuhinje
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/kuhinja.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/kuhinja.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/amplakar.jpg")" alt="">
-                                                    <h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/amplakar.jpg")" alt="">
+                                                <h5>
                                                     Americki plakari
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/amplakar.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/amplakari.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/komoda.jpg")" alt="">
-                                                    <h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/komoda.jpg")" alt="">
+                                                <h5>
                                                     Komode
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/komoda.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/komoda.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!--/.row-->
-                                </div><!--/.item-->
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/djsoba.jpg")" alt="">
-                                                    <h5>
+                                    </div>
+                                </div><!--/.row-->
+                            </div><!--/.item-->
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/djsoba.jpg")" alt="">
+                                                <h5>
                                                     Djecije sobe
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/djsoba.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/djsoba.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/ormar.jpg")" alt="">
-                                                    <h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/ormar.jpg")" alt="">
+                                                <h5>
                                                     Ormari
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/ormar.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/ormar.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/ukzid.jpg")" alt="">
-                                                    <h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/ukzid.jpg")" alt="">
+                                                <h5>
                                                     Ukrasni zid
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/ukzid.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                </div>
-                                    </div>
-                                </div>
-                                        <div class="item">
-                                            <div class="row">
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/tapeta.jpg")" alt="">
-                                                    <h5>
-                                                        Tapete
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/tapeta.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/ukzid.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
-                                            <div class="portfolio-item">
-                                                <div class="item-inner">
-                                                    <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/polzavino.jpg")" alt="">
-                                                    <h5>
-                                                        Police za vino
-                                                    </h5>
-                                                    <div class="overlay">
-                                                        <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/polzavino.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                                <div class="col-xs-4">
-                                                    <div class="portfolio-item">
-                                                        <div class="item-inner">
-                                                            <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/poslprostor.jpg")" alt="">
-                                                            <h5>
-                                                               Poslovni prostori
-                                                            </h5>
-                                                            <div class="overlay">
-                                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/portfolio/recent/poslprostor.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                     </div>
-                                </div><!--/.item-->
+                                </div>
                             </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/tapeta.jpg")" alt="">
+                                                <h5>
+                                                    Tapete
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/tapeta.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/polzavino.jpg")" alt="">
+                                                <h5>
+                                                    Police za vino
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/polzavino.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+                                                <img class="img-responsive " src="@routes.Assets.versioned("images/portfolio/recent/poslprostor.jpg")" alt="">
+                                                <h5>
+                                                    Poslovni prostori
+                                                </h5>
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="@routes.Assets.versioned("images/full/poslprostor.jpg")" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--/.item-->
                         </div>
                     </div>
-                </div><!--/.row-->
-            </div>
-        </section><!--/#recent-works-->
+                </div>
+            </div><!--/.row-->
+    </section><!--/#recent-works-->
 
 
 }

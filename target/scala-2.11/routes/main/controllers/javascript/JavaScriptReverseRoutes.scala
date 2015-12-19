@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:E:/New Project/blankProject/conf/routes
-// @DATE:Fri Dec 18 16:30:33 CET 2015
+// @DATE:Sat Dec 19 03:09:43 CET 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -11,11 +11,11 @@ import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamic
 import _root_.controllers.Assets.Asset
 import _root_.play.libs.F
 
-// @LINE:6
+// @LINE:8
 package controllers.javascript {
   import ReverseRouteContext.empty
 
-  // @LINE:33
+  // @LINE:38
   class ReverseEmails(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -23,7 +23,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:33
+    // @LINE:38
     def sendMail: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Emails.sendMail",
       """
@@ -35,7 +35,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:41
+  // @LINE:8
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -43,7 +43,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:41
+    // @LINE:8
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -55,7 +55,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:6
+  // @LINE:11
   class ReverseApplication(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -63,7 +63,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:13
+    // @LINE:18
     def radneploce: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.radneploce",
       """
@@ -73,7 +73,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:26
+    // @LINE:31
     def djecijesobe: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.djecijesobe",
       """
@@ -83,7 +83,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:16
+    // @LINE:21
     def hdflesonit: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.hdflesonit",
       """
@@ -93,7 +93,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:17
+    // @LINE:22
     def furniraneploce: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.furniraneploce",
       """
@@ -103,7 +103,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:24
+    // @LINE:29
     def kannamjestaj: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.kannamjestaj",
       """
@@ -113,7 +113,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:28
+    // @LINE:33
     def predsoblja: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.predsoblja",
       """
@@ -123,7 +123,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:29
+    // @LINE:34
     def kupatila: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.kupatila",
       """
@@ -133,7 +133,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:23
+    // @LINE:28
     def plakari: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.plakari",
       """
@@ -143,7 +143,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:18
+    // @LINE:23
     def ivericasirova: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.ivericasirova",
       """
@@ -153,7 +153,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:25
+    // @LINE:30
     def dnevnesobe: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.dnevnesobe",
       """
@@ -163,7 +163,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:12
+    // @LINE:17
     def univer: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.univer",
       """
@@ -173,7 +173,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:15
+    // @LINE:20
     def mdf: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.mdf",
       """
@@ -183,7 +183,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:27
+    // @LINE:32
     def spavacesobe: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.spavacesobe",
       """
@@ -193,7 +193,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:22
+    // @LINE:27
     def kuhinje: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.kuhinje",
       """
@@ -203,7 +203,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:6
+    // @LINE:11
     def index: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.index",
       """
@@ -213,7 +213,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
+    // @LINE:13
     def contact: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.contact",
       """
@@ -223,7 +223,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:14
+    // @LINE:19
     def mdffarbani: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.mdffarbani",
       """
@@ -233,7 +233,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:7
+    // @LINE:12
     def gallery: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.gallery",
       """

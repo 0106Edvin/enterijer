@@ -2,11 +2,29 @@
 .clearfix {
   *zoom: 1;
 }
-html{
-    min-width: 600px;
+#image1{
+   background-image: url('../images/slider/bg1.jpg');
+ }
+#image2{
+  background-image: url('../images/slider/bg2.jpg');
 }
-#image{
-  /*background-image: url('/public/images/slider/bg1.jpg');*/
+#image3{
+  background-image: url('../images/slider/bg3.jpg');
+}
+.easyPaginateNav{
+     font-size: 36px;
+
+    margin-top: 20px;
+    text-align: center;
+
+}
+.easyPaginateList{
+    margin-top: 0;
+    padding: 0;
+}
+.picture{
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 #map {
   height: 400px;

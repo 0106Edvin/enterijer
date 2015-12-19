@@ -1,4 +1,4 @@
-jQuery(function($) {
+jQuery(document).ready(function($) {
 
 	//#main-slider
 	$(document).ready(function(){
@@ -17,7 +17,7 @@ jQuery(function($) {
 	});
 
 	//portfolio
-	$(window).load(function(){
+	$(document).ready(window).load(function(){
 		$portfolio_selectors = $('.portfolio-filter >li>a');
 		if($portfolio_selectors!='undefined'){
 			$portfolio = $('.portfolio-items');

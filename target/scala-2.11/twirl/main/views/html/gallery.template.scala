@@ -29,10 +29,10 @@ class gallery extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,For
       {
 
 
-Seq[Any](_display_(/*2.2*/main("Studio Enterijer")/*2.26*/{_display_(Seq[Any](format.raw/*2.27*/("""
+Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](format.raw/*1.27*/("""
 
 
-"""),format.raw/*5.1*/("""<!--gallery-->
+"""),format.raw/*4.1*/("""<!--gallery-->
     <section id="recent-works">
         <div class="row" >
             <div>
@@ -41,183 +41,182 @@ Seq[Any](_display_(/*2.2*/main("Studio Enterijer")/*2.26*/{_display_(Seq[Any](fo
             <div class="col-md-12" >
                     <div class="carousel-inner">
                         <div class="item active">
-                            <div class="row"  id="easyPaginate">
-
+                            <div class="row" id="easyPaginate" >
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*20.83*/routes/*20.89*/.Assets.versioned("images/gallery/1.jpg")),format.raw/*20.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*18.83*/routes/*18.89*/.Assets.versioned("images/gallery/1.jpg")),format.raw/*18.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Kuhinja - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" href='"""),_display_(/*25.94*/routes/*25.100*/.Assets.versioned("images/gallery/1.jpg")),format.raw/*25.141*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" href='"""),_display_(/*23.94*/routes/*23.100*/.Assets.versioned("images/gallery/1.jpg")),format.raw/*23.141*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12" >
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*35.83*/routes/*35.89*/.Assets.versioned("images/gallery/2.jpg")),format.raw/*35.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*33.83*/routes/*33.89*/.Assets.versioned("images/gallery/2.jpg")),format.raw/*33.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*40.136*/routes/*40.142*/.Assets.versioned("images/gallery/2.jpg")),format.raw/*40.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*38.136*/routes/*38.142*/.Assets.versioned("images/gallery/2.jpg")),format.raw/*38.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*50.83*/routes/*50.89*/.Assets.versioned("images/gallery/3.jpg")),format.raw/*50.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*48.83*/routes/*48.89*/.Assets.versioned("images/gallery/3.jpg")),format.raw/*48.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*55.136*/routes/*55.142*/.Assets.versioned("images/gallery/3.jpg")),format.raw/*55.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*53.136*/routes/*53.142*/.Assets.versioned("images/gallery/3.jpg")),format.raw/*53.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*65.83*/routes/*65.89*/.Assets.versioned("images/gallery/4.jpg")),format.raw/*65.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*63.83*/routes/*63.89*/.Assets.versioned("images/gallery/4.jpg")),format.raw/*63.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*70.136*/routes/*70.142*/.Assets.versioned("images/gallery/4.jpg")),format.raw/*70.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*68.136*/routes/*68.142*/.Assets.versioned("images/gallery/4.jpg")),format.raw/*68.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*80.83*/routes/*80.89*/.Assets.versioned("images/gallery/5.jpg")),format.raw/*80.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*78.83*/routes/*78.89*/.Assets.versioned("images/gallery/5.jpg")),format.raw/*78.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*85.136*/routes/*85.142*/.Assets.versioned("images/gallery/5.jpg")),format.raw/*85.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*83.136*/routes/*83.142*/.Assets.versioned("images/gallery/5.jpg")),format.raw/*83.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*95.83*/routes/*95.89*/.Assets.versioned("images/gallery/6.jpg")),format.raw/*95.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*93.83*/routes/*93.89*/.Assets.versioned("images/gallery/6.jpg")),format.raw/*93.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*100.136*/routes/*100.142*/.Assets.versioned("images/gallery/6.jpg")),format.raw/*100.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*98.136*/routes/*98.142*/.Assets.versioned("images/gallery/6.jpg")),format.raw/*98.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*110.83*/routes/*110.89*/.Assets.versioned("images/gallery/7.jpg")),format.raw/*110.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*108.83*/routes/*108.89*/.Assets.versioned("images/gallery/7.jpg")),format.raw/*108.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*115.136*/routes/*115.142*/.Assets.versioned("images/gallery/7.jpg")),format.raw/*115.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*113.136*/routes/*113.142*/.Assets.versioned("images/gallery/7.jpg")),format.raw/*113.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*125.83*/routes/*125.89*/.Assets.versioned("images/gallery/8.jpg")),format.raw/*125.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*123.83*/routes/*123.89*/.Assets.versioned("images/gallery/8.jpg")),format.raw/*123.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*130.136*/routes/*130.142*/.Assets.versioned("images/gallery/8.jpg")),format.raw/*130.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*128.136*/routes/*128.142*/.Assets.versioned("images/gallery/8.jpg")),format.raw/*128.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12" >
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*140.83*/routes/*140.89*/.Assets.versioned("images/gallery/9.jpg")),format.raw/*140.130*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*138.83*/routes/*138.89*/.Assets.versioned("images/gallery/9.jpg")),format.raw/*138.130*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*145.136*/routes/*145.142*/.Assets.versioned("images/gallery/9.jpg")),format.raw/*145.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*143.136*/routes/*143.142*/.Assets.versioned("images/gallery/9.jpg")),format.raw/*143.183*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*155.83*/routes/*155.89*/.Assets.versioned("images/gallery/10.jpg")),format.raw/*155.131*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*153.83*/routes/*153.89*/.Assets.versioned("images/gallery/10.jpg")),format.raw/*153.131*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*160.136*/routes/*160.142*/.Assets.versioned("images/gallery/10.jpg")),format.raw/*160.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*158.136*/routes/*158.142*/.Assets.versioned("images/gallery/10.jpg")),format.raw/*158.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*170.83*/routes/*170.89*/.Assets.versioned("images/gallery/11.jpg")),format.raw/*170.131*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*168.83*/routes/*168.89*/.Assets.versioned("images/gallery/11.jpg")),format.raw/*168.131*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*175.136*/routes/*175.142*/.Assets.versioned("images/gallery/11.jpg")),format.raw/*175.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*173.136*/routes/*173.142*/.Assets.versioned("images/gallery/11.jpg")),format.raw/*173.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="picture">
-                                    <div class="col-xs-3">
+                                    <div class="col-md-3 col-xs-12">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src='"""),_display_(/*185.83*/routes/*185.89*/.Assets.versioned("images/gallery/12.jpg")),format.raw/*185.131*/("""' alt="" style="height: 200px">
+                                                <img class="img-responsive" src='"""),_display_(/*183.83*/routes/*183.89*/.Assets.versioned("images/gallery/12.jpg")),format.raw/*183.131*/("""' alt="" style="height: 200px">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*190.136*/routes/*190.142*/.Assets.versioned("images/gallery/12.jpg")),format.raw/*190.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href='"""),_display_(/*188.136*/routes/*188.142*/.Assets.versioned("images/gallery/12.jpg")),format.raw/*188.184*/("""' rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,7 +226,6 @@ Seq[Any](_display_(/*2.2*/main("Studio Enterijer")/*2.26*/{_display_(Seq[Any](fo
 
 
                             </div>
-
                         </div><!--/.item-->
 
                     </div>
@@ -237,32 +235,31 @@ Seq[Any](_display_(/*2.2*/main("Studio Enterijer")/*2.26*/{_display_(Seq[Any](fo
     </section><!--/#recent-works-->
 
     <script>
-    $('#easyPaginate').easyPaginate("""),format.raw/*210.37*/("""{"""),format.raw/*210.38*/("""
-        """),format.raw/*211.9*/("""paginateElement: '.picture',
+    $('#easyPaginate').easyPaginate("""),format.raw/*207.37*/("""{"""),format.raw/*207.38*/("""
+        """),format.raw/*208.9*/("""paginateElement: '.picture',
         elementsPerPage: 8,
         effect:'climb'
-        """),format.raw/*214.9*/("""}"""),format.raw/*214.10*/(""");
+        """),format.raw/*211.9*/("""}"""),format.raw/*211.10*/(""");
 </script>
     <style>
-    .easyPaginateNav a """),format.raw/*217.24*/("""{"""),format.raw/*217.25*/("""
-    """),format.raw/*218.5*/("""font-family: "Lucida Sans","Lucida Grande",sans-serif;
-    font-size: 76%;
-    padding:9px;
-    text-align: center;
+        .easyPaginateNav a """),format.raw/*214.28*/("""{"""),format.raw/*214.29*/("""
+            """),format.raw/*215.13*/("""font-family: "Lucida Sans","Lucida Grande",sans-serif;
+            padding:9px;
 
-    """),format.raw/*223.5*/("""}"""),format.raw/*223.6*/("""
 
-    """),format.raw/*225.5*/(""".easyPaginateNav a.current """),format.raw/*225.32*/("""{"""),format.raw/*225.33*/("""
-    """),format.raw/*226.5*/("""font-weight:bold;
-    text-decoration:underline;
-    """),format.raw/*228.5*/("""}"""),format.raw/*228.6*/("""
+        """),format.raw/*219.9*/("""}"""),format.raw/*219.10*/("""
 
-    """),format.raw/*230.5*/(""".easyPaginateNav a:hover """),format.raw/*230.30*/("""{"""),format.raw/*230.31*/("""
-    """),format.raw/*231.5*/("""background-color: #DEDEDE;
-    color: #000;
+        """),format.raw/*221.9*/(""".easyPaginateNav a.current """),format.raw/*221.36*/("""{"""),format.raw/*221.37*/("""
+            """),format.raw/*222.13*/("""font-weight:bold;
+            text-decoration:underline;
+        """),format.raw/*224.9*/("""}"""),format.raw/*224.10*/("""
 
-    """),format.raw/*234.5*/("""}"""),format.raw/*234.6*/("""
-    """),format.raw/*235.5*/("""</style>
+        """),format.raw/*226.9*/(""".easyPaginateNav a:hover """),format.raw/*226.34*/("""{"""),format.raw/*226.35*/("""
+            """),format.raw/*227.13*/("""background-color: #DEDEDE;
+            color: #000;
+
+        """),format.raw/*230.9*/("""}"""),format.raw/*230.10*/("""
+    """),format.raw/*231.5*/("""</style>
 """)))}))
       }
     }
@@ -283,11 +280,11 @@ Seq[Any](_display_(/*2.2*/main("Studio Enterijer")/*2.26*/{_display_(Seq[Any](fo
 object gallery extends gallery_Scope0.gallery
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 17 13:58:12 CET 2015
+                  DATE: Sat Dec 19 15:00:45 CET 2015
                   SOURCE: E:/New Project/blankProject/app/views/gallery.scala.html
-                  HASH: 252b27910496c155f1007b722c71f2250aef0462
-                  MATRIX: 831->3|863->27|901->28|933->34|1665->739|1680->745|1743->786|2163->1179|2179->1185|2242->1226|2901->1858|2916->1864|2979->1905|3439->2337|3455->2343|3518->2384|4177->3016|4192->3022|4255->3063|4715->3495|4731->3501|4794->3542|5453->4174|5468->4180|5531->4221|5991->4653|6007->4659|6070->4700|6729->5332|6744->5338|6807->5379|7267->5811|7283->5817|7346->5858|8005->6490|8020->6496|8083->6537|8544->6969|8561->6975|8625->7016|9285->7648|9301->7654|9365->7695|9826->8127|9843->8133|9907->8174|10567->8806|10583->8812|10647->8853|11108->9285|11125->9291|11189->9332|11849->9964|11865->9970|11929->10011|12390->10443|12407->10449|12471->10490|13131->11122|13147->11128|13212->11170|13673->11602|13690->11608|13755->11650|14415->12282|14431->12288|14496->12330|14957->12762|14974->12768|15039->12810|15699->13442|15715->13448|15780->13490|16241->13922|16258->13928|16323->13970|16905->14523|16935->14524|16973->14534|17092->14625|17122->14626|17202->14677|17232->14678|17266->14684|17420->14810|17449->14811|17485->14819|17541->14846|17571->14847|17605->14853|17688->14908|17717->14909|17753->14917|17807->14942|17837->14943|17871->14949|17951->15001|17980->15002|18014->15008
-                  LINES: 32->2|32->2|32->2|35->5|50->20|50->20|50->20|55->25|55->25|55->25|65->35|65->35|65->35|70->40|70->40|70->40|80->50|80->50|80->50|85->55|85->55|85->55|95->65|95->65|95->65|100->70|100->70|100->70|110->80|110->80|110->80|115->85|115->85|115->85|125->95|125->95|125->95|130->100|130->100|130->100|140->110|140->110|140->110|145->115|145->115|145->115|155->125|155->125|155->125|160->130|160->130|160->130|170->140|170->140|170->140|175->145|175->145|175->145|185->155|185->155|185->155|190->160|190->160|190->160|200->170|200->170|200->170|205->175|205->175|205->175|215->185|215->185|215->185|220->190|220->190|220->190|240->210|240->210|241->211|244->214|244->214|247->217|247->217|248->218|253->223|253->223|255->225|255->225|255->225|256->226|258->228|258->228|260->230|260->230|260->230|261->231|264->234|264->234|265->235
+                  HASH: 91e4a2337a3f1d669d7ac235c30186e9f02b8cd6
+                  MATRIX: 831->1|863->25|901->26|933->32|1673->745|1688->751|1751->792|2171->1185|2187->1191|2250->1232|2920->1875|2935->1881|2998->1922|3458->2354|3474->2360|3537->2401|4206->3043|4221->3049|4284->3090|4744->3522|4760->3528|4823->3569|5492->4211|5507->4217|5570->4258|6030->4690|6046->4696|6109->4737|6778->5379|6793->5385|6856->5426|7316->5858|7332->5864|7395->5905|8064->6547|8079->6553|8142->6594|8602->7026|8618->7032|8681->7073|9351->7715|9367->7721|9431->7762|9892->8194|9909->8200|9973->8241|10643->8883|10659->8889|10723->8930|11184->9362|11201->9368|11265->9409|11936->10052|11952->10058|12016->10099|12477->10531|12494->10537|12558->10578|13228->11220|13244->11226|13309->11268|13770->11700|13787->11706|13852->11748|14522->12390|14538->12396|14603->12438|15064->12870|15081->12876|15146->12918|15816->13560|15832->13566|15897->13608|16358->14040|16375->14046|16440->14088|17020->14639|17050->14640|17088->14650|17207->14741|17237->14742|17321->14797|17351->14798|17394->14812|17516->14906|17546->14907|17586->14919|17642->14946|17672->14947|17715->14961|17810->15028|17840->15029|17880->15041|17934->15066|17964->15067|18007->15081|18099->15145|18129->15146|18163->15152
+                  LINES: 32->1|32->1|32->1|35->4|49->18|49->18|49->18|54->23|54->23|54->23|64->33|64->33|64->33|69->38|69->38|69->38|79->48|79->48|79->48|84->53|84->53|84->53|94->63|94->63|94->63|99->68|99->68|99->68|109->78|109->78|109->78|114->83|114->83|114->83|124->93|124->93|124->93|129->98|129->98|129->98|139->108|139->108|139->108|144->113|144->113|144->113|154->123|154->123|154->123|159->128|159->128|159->128|169->138|169->138|169->138|174->143|174->143|174->143|184->153|184->153|184->153|189->158|189->158|189->158|199->168|199->168|199->168|204->173|204->173|204->173|214->183|214->183|214->183|219->188|219->188|219->188|238->207|238->207|239->208|242->211|242->211|245->214|245->214|246->215|250->219|250->219|252->221|252->221|252->221|253->222|255->224|255->224|257->226|257->226|257->226|258->227|261->230|261->230|262->231
                   -- GENERATED --
               */
           

@@ -78,9 +78,9 @@
 
                 htmlNav += '</div>';
                 plugin.nav = $(htmlNav);
-                plugin.nav.css({
-                    'width': plugin.el.width()
-                });
+                //plugin.nav.css({
+                //    'width': plugin.el.width()
+                //});
                 plugin.el.after(plugin.nav);
 
                 $('.easyPaginateNav a.page, .easyPaginateNav a.first, .easyPaginateNav a.last', plugin).on('click', function(e) {
