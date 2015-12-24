@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/E:/New%20Project/blankProject/}myProject...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/ajla/Documents/DTProjects/enterijer/}myProject...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: blankproject#blankproject_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for blankproject#blankproject_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1861fec5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@189dfeab[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -57,8 +57,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime(*)][0m
@@ -197,7 +197,7 @@
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-reflect;2.11.6[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.0->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.0->com.fasterxml.jackson.core#jackson-core;2.5.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.5.3 ...[0m
@@ -279,8 +279,8 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.0->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -420,128 +420,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#guice-assistedinject;4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\User\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\ajla\.ivy2\local\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Program Files\activator\repository\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	activator-launcher-local: found md file for com.google.inject.extensions#guice-assistedinject;4.0[0m
-[0m[[0mdebug[0m] [0m		=> C:\Program Files\activator\repository\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml (4.0)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.0!ivy.xml(ivy.original)[0m
-[0m[[0mdebug[0m] [0mproblem occurred while resolving dependency: com.google.inject.extensions#guice-assistedinject;4.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} with activator-launcher-local: java.text.ParseException: [unknown tag project in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag modelVersion in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag parent in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag groupId in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag artifactId in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag version in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag artifactId in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m, unknown tag name in file:/C:/Users/User/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/ivy-4.0.xml.original[0m
-[0m[[0mdebug[0m] [0m][0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser$AbstractParser.checkErrors(AbstractModuleDescriptorParser.java:89)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser$Parser.parse(XmlModuleDescriptorParser.java:277)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser.parseDescriptor(XmlModuleDescriptorParser.java:117)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser.parseDescriptor(AbstractModuleDescriptorParser.java:48)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.cache.DefaultRepositoryCacheManager$MyModuleDescriptorProvider.provideModule(DefaultRepositoryCacheManager.java:714)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.cache.ModuleDescriptorMemoryCache.getStale(ModuleDescriptorMemoryCache.java:68)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.cache.DefaultRepositoryCacheManager.getStaledMd(DefaultRepositoryCacheManager.java:731)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.cache.DefaultRepositoryCacheManager.cacheModuleDescriptor(DefaultRepositoryCacheManager.java:1193)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.BasicResolver.parse(BasicResolver.java:536)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.BasicResolver.getDependency(BasicResolver.java:271)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$$anonfun$defaultConvert$1$$anon$4.sbt$ConvertResolver$DescriptorRequired$$super$getDependency(ConvertResolver.scala:154)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$DescriptorRequired$class.getDependency(ConvertResolver.scala:185)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$$anonfun$defaultConvert$1$$anon$4.getDependency(ConvertResolver.scala:154)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$6.apply(SbtChainResolver.scala:134)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$6.apply(SbtChainResolver.scala:122)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.Iterator$class.foreach(Iterator.scala:727)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractTraversable.map(Traversable.scala:105)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.doGetDependency(SbtChainResolver.scala:122)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.getDependency(SbtChainResolver.scala:73)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$6.apply(SbtChainResolver.scala:134)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$6.apply(SbtChainResolver.scala:122)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.Iterator$class.foreach(Iterator.scala:727)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)[0m
-[0m[[0mdebug[0m] [0m	at scala.collection.AbstractTraversable.map(Traversable.scala:105)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.doGetDependency(SbtChainResolver.scala:122)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.getDependency(SbtChainResolver.scala:73)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.IvyNode.loadData(IvyNode.java:169)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.VisitNode.loadData(VisitNode.java:292)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:714)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:787)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:787)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.getDependencies(ResolveEngine.java:594)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.resolve(ResolveEngine.java:234)[0m
-[0m[[0mdebug[0m] [0m	at org.apache.ivy.Ivy.resolve(Ivy.java:517)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:279)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:188)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:165)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Using$.withResource(Using.scala:10)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Using$.apply(Using.scala:9)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$.apply0(Locks.scala:31)[0m
-[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$.apply(Locks.scala:28)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withIvy(Ivy.scala:127)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withIvy(Ivy.scala:124)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module.withModule(Ivy.scala:155)[0m
-[0m[[0mdebug[0m] [0m	at sbt.IvyActions$.updateEither(IvyActions.scala:165)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1369)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1365)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1399)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1397)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1402)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1396)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1419)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1348)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1310)[0m
-[0m[[0mdebug[0m] [0m	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)[0m
-[0m[[0mdebug[0m] [0m	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)[0m
-[0m[[0mdebug[0m] [0m	at sbt.std.Transform$$anon$4.work(System.scala:63)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Execute.work(Execute.scala:235)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)[0m
-[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)[0m
-[0m[[0mdebug[0m] [0m	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)[0m
-[0m[[0mdebug[0m] [0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)[0m
-[0m[[0mdebug[0m] [0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
-[0m[[0mdebug[0m] [0m	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)[0m
-[0m[[0mdebug[0m] [0m	at java.util.concurrent.FutureTask.run(Unknown Source)[0m
-[0m[[0mdebug[0m] [0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)[0m
-[0m[[0mdebug[0m] [0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)[0m
-[0m[[0mdebug[0m] [0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\ajla\Documents\DTProjects\enterijer\repository\com.google.inject.extensions\guice-assistedinject\4.0\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for com.google.inject.extensions#guice-assistedinject;4.0[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for com.google.inject.extensions#guice-assistedinject;4.0[0m
 [0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom (4.0)[0m
@@ -549,7 +431,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (269ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (258ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#extensions-parent;4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0[0m
@@ -1907,8 +1789,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -1982,7 +1864,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -2024,8 +1906,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -2827,8 +2709,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -2902,7 +2784,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -2944,8 +2826,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -4642,8 +4524,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -4717,7 +4599,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -4759,8 +4641,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -5564,8 +5446,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -5639,7 +5521,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -5681,8 +5563,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -6486,8 +6368,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
@@ -6561,7 +6443,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -6603,8 +6485,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->com.typesafe.play#twirl-api_2.11;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -8188,7 +8070,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.joda#joda-convert;1.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-json_2.11;2.4.4->com.fasterxml.jackson.core#jackson-core;2.5.4 [compile->compile(*)][0m
@@ -8234,14 +8116,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.apache.commons#commons-lang3;3.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#twirl-api_2.11;1.1.1->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.11;2.4.4->org.slf4j#slf4j-api;1.7.12 [compile->master(compile)][0m
@@ -8654,25 +8536,25 @@
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->runtime(*)][0m
@@ -8680,14 +8562,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->runtime(*)][0m
@@ -8707,9 +8589,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies blankproject#blankproject_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
 [0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->compile(*)][0m
@@ -8867,19 +8749,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6157ms :: artifacts dl 105ms[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT compile produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT runtime produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT test produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT provided produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT optional produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT compile-internal produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT runtime-internal produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT test-internal produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT plugin produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT sources produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT docs produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT pom produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT scala-tool produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6157ms resolve - 105ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3487ms :: artifacts dl 109ms[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT compile produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT runtime produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT test produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT provided produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT optional produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT compile-internal produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT runtime-internal produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT test-internal produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT plugin produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT sources produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT docs produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT pom produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for blankproject#blankproject_2.11;1.0-SNAPSHOT scala-tool produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3487ms resolve - 109ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

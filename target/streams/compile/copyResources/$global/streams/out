@@ -1,7 +1,7 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\application.conf,E:\New Project\blankProject\target\scala-2.11\classes\application.conf)[0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\evolutions,E:\New Project\blankProject\target\scala-2.11\classes\evolutions)[0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\logback.xml,E:\New Project\blankProject\target\scala-2.11\classes\logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\routes,E:\New Project\blankProject\target\scala-2.11\classes\routes)[0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\evolutions\default,E:\New Project\blankProject\target\scala-2.11\classes\evolutions\default)[0m
-[0m[[0mdebug[0m] [0m	(E:\New Project\blankProject\conf\evolutions\default\1.sql,E:\New Project\blankProject\target\scala-2.11\classes\evolutions\default\1.sql)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\application.conf,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\evolutions,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\logback.xml,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\routes,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\evolutions\default,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\ajla\Documents\DTProjects\enterijer\conf\evolutions\default\1.sql,C:\Users\ajla\Documents\DTProjects\enterijer\target\scala-2.11\classes\evolutions\default\1.sql)[0m

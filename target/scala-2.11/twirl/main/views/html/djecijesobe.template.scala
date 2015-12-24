@@ -60,8 +60,8 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 object djecijesobe extends djecijesobe_Scope0.djecijesobe
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 17 22:10:45 CET 2015
-                  SOURCE: E:/New Project/blankProject/app/views/djecijesobe.scala.html
+                  DATE: Thu Dec 24 13:17:36 CET 2015
+                  SOURCE: C:/Users/ajla/Documents/DTProjects/enterijer/app/views/djecijesobe.scala.html
                   HASH: dfa1e14a7ee50ba8da6adb8ba43657c5bf5a1967
                   MATRIX: 839->1|871->25|909->26|937->28
                   LINES: 32->1|32->1|32->1|33->2

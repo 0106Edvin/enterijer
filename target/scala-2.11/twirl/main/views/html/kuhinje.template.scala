@@ -60,8 +60,8 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 object kuhinje extends kuhinje_Scope0.kuhinje
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 17 22:10:45 CET 2015
-                  SOURCE: E:/New Project/blankProject/app/views/kuhinje.scala.html
+                  DATE: Thu Dec 24 13:17:36 CET 2015
+                  SOURCE: C:/Users/ajla/Documents/DTProjects/enterijer/app/views/kuhinje.scala.html
                   HASH: dfa1e14a7ee50ba8da6adb8ba43657c5bf5a1967
                   MATRIX: 831->1|863->25|901->26|929->28
                   LINES: 32->1|32->1|32->1|33->2

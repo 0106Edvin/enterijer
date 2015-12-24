@@ -60,8 +60,8 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 object dnevnesobe extends dnevnesobe_Scope0.dnevnesobe
               /*
                   -- GENERATED --
-                  DATE: Fri Dec 18 17:52:06 CET 2015
-                  SOURCE: E:/New Project/blankProject/app/views/nampomjeri/dnevnesobe.scala.html
+                  DATE: Thu Dec 24 13:17:36 CET 2015
+                  SOURCE: C:/Users/ajla/Documents/DTProjects/enterijer/app/views/nampomjeri/dnevnesobe.scala.html
                   HASH: dfa1e14a7ee50ba8da6adb8ba43657c5bf5a1967
                   MATRIX: 848->1|880->25|918->26|946->28
                   LINES: 32->1|32->1|32->1|33->2

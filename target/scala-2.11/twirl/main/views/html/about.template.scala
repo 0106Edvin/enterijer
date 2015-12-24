@@ -101,8 +101,8 @@ Seq[Any](_display_(/*1.2*/main("Studio Enterijer")/*1.26*/{_display_(Seq[Any](fo
 object about extends about_Scope0.about
               /*
                   -- GENERATED --
-                  DATE: Tue Dec 15 22:37:38 CET 2015
-                  SOURCE: E:/New Project/blankProject/app/views/about.scala.html
+                  DATE: Thu Dec 24 13:17:36 CET 2015
+                  SOURCE: C:/Users/ajla/Documents/DTProjects/enterijer/app/views/about.scala.html
                   HASH: ec7144834ecba8aacfc5cccc69f8f2f1441ad899
                   MATRIX: 827->1|859->25|897->26|933->36
                   LINES: 32->1|32->1|32->1|34->3
