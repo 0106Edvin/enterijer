@@ -4,7 +4,7 @@
 		module="enterijer-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151224131706"
+		publication="20160112224209"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

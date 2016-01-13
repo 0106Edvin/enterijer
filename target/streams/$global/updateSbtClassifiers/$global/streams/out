@@ -4068,9 +4068,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 2995ms :: artifacts dl 176ms
-[debug] 	report for blankproject#blankproject$sbt_2.11;1.0-SNAPSHOT default produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject$sbt_2.11-default.xml
-[debug] 	resolve done (2995ms resolve - 176ms download)
+[debug] :: resolution report :: resolve 1618ms :: artifacts dl 111ms
+[debug] 	report for blankproject#blankproject$sbt_2.11;1.0-SNAPSHOT default produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject$sbt_2.11-default.xml
+[debug] 	resolve done (1618ms resolve - 111ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: blankproject#blankproject$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -5251,6 +5251,6 @@
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-play-ebean;1.0.0!sbt-play-ebean.jar(src)
 [debug] 	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.5.3!avaje-ebeanorm-agent.jar(src)
 [debug] 	[NOT REQUIRED] javax.persistence#persistence-api;1.0!persistence-api.jar(src)
-[debug] :: resolution report :: resolve 1769ms :: artifacts dl 141ms
-[debug] 	report for blankproject#blankproject$sources_2.11;1.0-SNAPSHOT default produced in E:\New Project\blankProject\target\resolution-cache\reports\blankproject-blankproject$sources_2.11-default.xml
-[debug] 	resolve done (1769ms resolve - 141ms download)
+[debug] :: resolution report :: resolve 914ms :: artifacts dl 91ms
+[debug] 	report for blankproject#blankproject$sources_2.11;1.0-SNAPSHOT default produced in C:\Users\ajla\Documents\DTProjects\enterijer\target\resolution-cache\reports\blankproject-blankproject$sources_2.11-default.xml
+[debug] 	resolve done (914ms resolve - 91ms download)

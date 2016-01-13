@@ -13,8 +13,7 @@
         <entry key="myProject">
           <value>
             <ProjectSettingsEntry>
-              <option name="sourceDir" value="E:\New Project\blankProject\app" />
-              <option name="confDir" value="E:\New Project\blankProject\app" />
+              <option name="confDir" value="$PROJECT_DIR$/app" />
               <option name="templateImports">
                 <list>
                   <option value="models._" />
@@ -39,7 +38,7 @@
                   <option value="play.libs.F" />
                 </list>
               </option>
-              <option name="uri" value="E:\New Project\blankProject" />
+              <option name="uri" value="$PROJECT_DIR$" />
             </ProjectSettingsEntry>
           </value>
         </entry>

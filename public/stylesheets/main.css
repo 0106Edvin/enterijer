@@ -318,7 +318,7 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #34495e;
+  background-color: #F5740A;
 }
 .wet-asphalt a:not(.btn) {
   color: #bdc3c7;
@@ -334,6 +334,9 @@ body > section {
 }
 .asbestos {
   background-color: #7f8c8d;
+}
+.mouse-gray {
+  background-color: #2F4F4F;
 }
 .embed-container {
   position: relative;
